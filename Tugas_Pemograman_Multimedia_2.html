@@ -1,0 +1,81 @@
+ 
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>😉 Welcome to My Personal Website - Nanda Nabila Putri</title>
+    <style>
+        img{
+            border-radius: 50%;
+        }
+        #text-container {
+            font-size: 32px;
+            text-align: left;
+        }
+    </style>
+  </head>
+  <body bgcolor="CCD6A6">
+    <table cellspacing="20">
+      <tr>
+        <td><img src="d:\Kuliah\Semester 7\Multimedia\Profil.png" width="200" alt="Foto Profil"></td>
+        <td>
+            <div id="text-container">
+                <h1>Nanda Nabila Putri</h1>
+            </div>
+            <script>
+                const textContainer = 
+                      document.getElementById("text-container");
+                
+                let hue = 0;
+          
+                setInterval(() => {
+                    hue = (hue + 1) % 360;
+                    const color = `hsl(${hue}, 100%, 50%)`;
+                    textContainer.style.color = color;
+                }, 50);
+          </script>
+        <p><em>Mahasiswa</em><strong>
+          <a href="https://unucirebon.ac.id" target="_blank">Universitas Nahdlatul Ulama Cirebon</a>
+          </strong></p>
+        <p><em><strong>Fakultas Ilmu Komputer</strong></em></p>
+        <p><em>Program Studi Teknik Informatika</em></p></td>
+      </tr>
+    </table>
+    <hr>
+    <h3>kontak</h3>
+    <table>
+      <tr>
+        <td>Email</td>
+        <td>nandanabilaputri02@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Telepon</td>
+        <td>081572659864 </td>
+      </tr>
+      <tr>
+        <td>Instagram</td>
+        <td>nndanbilaptri</td>
+      </tr>
+      <tr>
+        <td>Alamat</td>
+        <td>desa kalisari rt 26 rw 07 dusun III Kec. Losari Kab. Cirebon</td>
+      </tr>
+    </table>
+    <hr>
+    <h3>Hobi</h3>
+    <table cellspacing="20">
+      <tr>
+        <td>Shopping</td>
+        <td>⭐⭐⭐⭐⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Traveling</td>
+        <td>⭐⭐⭐⭐⭐⭐⭐</td>
+      </tr>
+    </table>
+    <p>
+    <a href="hobi-saya.html">Hobi Saya</a>
+    <a href="kontak-saya.html">Hubungi Saya</a>
+    </p>
+  </body>
+</html>
